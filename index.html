@@ -1,315 +1,480 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MD Clean - Especializada em limpeza de fossa séptica, caixas de gordura, transporte de resíduos e desobstrução em Recife/PE. Orçamento gratuito e licenças ambientais.">
-    <title>MD Clean | Limpeza e Transporte de Resíduos</title>
-    
-    <!-- CSS -->
+    <meta name="description" content="Prado Desentupidora e Limpa Fossa - Especializada em desentupimento, limpeza de fossa, hidrojateamento e vídeo inspeção em Atibaia e região.">
+    <meta name="keywords" content="desentupidora, limpa fossa, hidrojateamento, Atibaia, esgoto, caixa de gordura, vídeo inspeção">
+    <title>Prado Desentupidora e Limpa Fossa | Atibaia - SP</title>
     <link rel="stylesheet" href="style.css">
-    
-    <!-- Font Awesome para Ícones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-
-    <!-- Header / Menu -->
-    <header id="header">
-        <div class="container header-container">
-            <div class="logo">
-                <h1>MD <span>Clean</span></h1>
-                <p>Limpeza e Soluções Ambientais</p>
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-info">
+                <span><i class="fas fa-phone"></i> (11) 4411-0308</span>
+                <span><i class="fas fa-envelope"></i> pradodesentupidora@gmail.com</span>
+                <span><i class="fas fa-clock"></i> Atendimento 24h</span>
             </div>
-            <nav>
-                <ul id="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#diferenciais">Diferenciais</a></li>
-                    <li><a href="#licencas">Licenças</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contato" class="btn-contato">Contato</a></li>
-                </ul>
-                <div class="menu-toggle" id="mobile-menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container hero-content">
-            <h2>Especialistas em Limpeza de Fossa e Transporte de Resíduos</h2>
-            <p>Soluções completas e licenciadas para sua empresa ou residência. Rapidez, segurança e higiene garantidas.</p>
-            <div class="hero-buttons">
-                <a href="#contato" class="btn btn-primary"><i class="fas fa-file-invoice"></i> Orçamento Gratuito</a>
-                <a href="tel:8136281296" class="btn btn-outline"><i class="fas fa-phone"></i> (81) 3628-1296</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Barra de Informações Rápidas -->
-    <div class="info-bar">
-        <div class="container info-container">
-            <div class="info-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Recife - PE</span>
-            </div>
-            <div class="info-item">
-                <i class="fas fa-envelope"></i>
-                <span>alaice_@hotmail.com</span>
-            </div>
-            <div class="info-item">
-                <i class="fas fa-clock"></i>
-                <span>Atendimento Rápido</span>
+            <div class="top-social">
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>
 
-    <!-- Seção de Serviços -->
-    <section id="servicos" class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Nossos Serviços</h2>
-                <p>Soluções especializadas para limpeza e manutenção do seu sistema de esgoto.</p>
-            </div>
-            <div class="grid-servicos">
-                <!-- Serviço 1 -->
-                <div class="card-servico">
-                    <div class="icon-box">
-                        <i class="fas fa-toilet"></i>
-                    </div>
-                    <h3>Limpeza de Fossa</h3>
-                    <p>Remoção completa de resíduos de fossas sépticas com equipamentos modernos e destinação correta.</p>
-                </div>
-                <!-- Serviço 2 -->
-                <div class="card-servico">
-                    <div class="icon-box">
-                        <i class="fas fa-oil-can"></i>
-                    </div>
-                    <h3>Limpeza Caixa de Gordura</h3>
-                    <p>Desobstrução e limpeza de caixas de gordura para evitar entupimentos e mau odor.</p>
-                </div>
-                <!-- Serviço 3 -->
-                <div class="card-servico">
-                    <div class="icon-box">
-                        <i class="fas fa-truck-moving"></i>
-                    </div>
-                    <h3>Transporte de Efluentes</h3>
-                    <p>Transporte seguro e licenciado de efluentes e resíduos para locais apropriados.</p>
-                </div>
-                <!-- Serviço 4 -->
-                <div class="card-servico">
-                    <div class="icon-box">
-                        <i class="fas fa-filter"></i>
-                    </div>
-                    <h3>Limpeza Filtro Anaeróbio</h3>
-                    <p>Manutenção e limpeza de filtros anaeróbios, garantindo a eficiência do tratamento.</p>
-                </div>
-                <!-- Serviço 5 -->
-                <div class="card-servico">
-                    <div class="icon-box">
-                        <i class="fas fa-water"></i>
-                    </div>
-                    <h3>Limpeza Caixa de Passagem</h3>
-                    <p>Limpeza de caixas de passagem e inspeção para manter o fluxo correto.</p>
-                </div>
-                <!-- Serviço 6 -->
-                <div class="card-servico">
-                    <div class="icon-box">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Desobstrução em Geral</h3>
-                    <p>Desentupimento de redes, tubulações e ramais com agilidade e eficiência.</p>
+    <!-- HEADER / NAV -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-water"></i>
+                <div class="logo-text">
+                    <h1>PRADO</h1>
+                    <span>Desentupidora & Limpa Fossa</span>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Seção de Diferenciais -->
-    <section id="diferenciais" class="section bg-light">
-        <div class="container">
-            <div class="section-title">
-                <h2>Por que escolher a MD Clean?</h2>
-                <p>Nossos diferenciais garantem a melhor experiência para você.</p>
-            </div>
-            <div class="grid-diferenciais">
-                <div class="diferencial-item">
-                    <i class="fas fa-check-circle"></i>
-                    <h4>Orçamentos Gratuitos</h4>
-                    <p>Faça uma avaliação sem compromisso.</p>
-                </div>
-                <div class="diferencial-item">
-                    <i class="fas fa-bolt"></i>
-                    <h4>Rapidez e Prontidão</h4>
-                    <p>Atendimento ágil quando você precisa.</p>
-                </div>
-                <div class="diferencial-item">
-                    <i class="fas fa-shield-alt"></i>
-                    <h4>Segurança e Higiene</h4>
-                    <p>Equipe treinada e equipamentos adequados.</p>
-                </div>
-                <div class="diferencial-item">
-                    <i class="fas fa-file-signature"></i>
-                    <h4>Garantia em Contrato</h4>
-                    <p>Emitimos garantia por escrito do serviço.</p>
-                </div>
-                <div class="diferencial-item">
-                    <i class="fas fa-dollar-sign"></i>
-                    <h4>Preços Acessíveis</h4>
-                    <p>Qualidade com o melhor custo-benefício.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Licenças -->
-    <section id="licencas" class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Licenças e Certificações</h2>
-                <p>Trabalhamos em conformidade com todos os órgãos reguladores.</p>
-            </div>
-            <div class="licencas-grid">
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> INMETRO</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> AFE</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> CPRH</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> BOMBEIROS</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> IBAMA</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> VIGILÂNCIA SANITÁRIA</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> CIV</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> CIPP</span>
-                <span class="licenca-tag"><i class="fas fa-certificate"></i> CERTIDÕES FEDERAIS</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção Sobre (Missão, Visão, Valores) -->
-    <section id="sobre" class="section bg-dark">
-        <div class="container">
-            <div class="section-title text-white">
-                <h2>Sobre a MD Clean</h2>
-                <p>Conheça nossos princípios e nossa história.</p>
-            </div>
-            <div class="mvv-grid">
-                <div class="mvv-card">
-                    <i class="fas fa-bullseye"></i>
-                    <h3>Missão</h3>
-                    <p>Oferecermos sempre o melhor serviço de acordo com a necessidade do cliente.</p>
-                </div>
-                <div class="mvv-card">
-                    <i class="fas fa-eye"></i>
-                    <h3>Visão</h3>
-                    <p>Consolidar-se como empresa referência na nossa área de atuação.</p>
-                </div>
-                <div class="mvv-card">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Valores</h3>
-                    <p>Transparência, ética e compromisso com o nosso cliente.</p>
-                </div>
-            </div>
-            <div class="empresa-info">
-                <p><strong>Razão Social:</strong> Md Clean Comercio de Produtos Higienicos e de Limpezas LTDA</p>
-                <p><strong>CNPJ:</strong> 06.303.006/0001-14</p>
-                <p><strong>Inscrição Estadual PE:</strong> 0313120-39</p>
-                <p><strong>Data de Abertura:</strong> 10/06/2004</p>
-                <p><strong>Endereço:</strong> Manoel Salvador, 61 - Areias, Recife - PE, CEP: 50900-120</p>
-                <p><strong>CNAE Principal:</strong> 46.49-4-08 - Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Contato -->
-    <section id="contato" class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Entre em Contato</h2>
-                <p>Solicite seu orçamento gratuito ou tire suas dúvidas.</p>
-            </div>
-            <div class="contato-container">
-                <div class="contato-info">
-                    <div class="contato-item">
-                        <i class="fas fa-phone-alt"></i>
-                        <div>
-                            <h4>Telefones</h4>
-                            <p>(81) 3628-1296</p>
-                            <p>(81) 3472-0002</p>
-                        </div>
-                    </div>
-                    <div class="contato-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>E-mail</h4>
-                            <p>alaice_@hotmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contato-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Endereço</h4>
-                            <p>Rua Manoel Salvador, 61 - Areias<br>Recife - PE, 50900-120</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contato-form">
-                    <form id="formContato">
-                        <div class="form-group">
-                            <input type="text" id="nome" placeholder="Seu Nome" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" placeholder="Seu E-mail" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" id="telefone" placeholder="Seu Telefone" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="mensagem" rows="5" placeholder="Descreva o serviço que precisa" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Rodapé -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-logo">
-                <h2>MD <span>Clean</span></h2>
-                <p>Limpeza e Soluções Ambientais</p>
-            </div>
-            <div class="footer-links">
-                <h4>Links Rápidos</h4>
+            <nav class="nav" id="nav">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#home">Início</a></li>
                     <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#atendimento">Atendemos</a></li>
+                    <li><a href="#ambiente">Meio Ambiente</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
+            </nav>
+            <a href="https://wa.me/5511964026349" class="btn-whatsapp-header" target="_blank">
+                <i class="fab fa-whatsapp"></i> Orçamento
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
             </div>
-            <div class="footer-social">
-                <h4>Siga-nos</h4>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge"><i class="fas fa-award"></i> Desde 2011</span>
+            <h2>Desentupimento com <span class="highlight">Qualidade e Agilidade</span></h2>
+            <p>Especializada em desentupimento com hidrojateamento de alta pressão, roto-rooter, limpa fossa e vídeo inspeção. Atendimento 24 horas em Atibaia e região.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5511964026349" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+                </a>
+                <a href="#servicos" class="btn btn-outline">
+                    <i class="fas fa-tools"></i> Nossos Serviços
+                </a>
+            </div>
+            <div class="hero-features">
+                <div class="hero-feature"><i class="fas fa-check-circle"></i> Atendimento 24h</div>
+                <div class="hero-feature"><i class="fas fa-check-circle"></i> Frota Própria</div>
+                <div class="hero-feature"><i class="fas fa-check-circle"></i> Orçamento Sem Compromisso</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="diferenciais">
+        <div class="container diferenciais-grid">
+            <div class="diferencial-card">
+                <div class="icon-box"><i class="fas fa-truck-fast"></i></div>
+                <h3>Atendimento Rápido</h3>
+                <p>Agilidade no atendimento para resolver seu problema com urgência.</p>
+            </div>
+            <div class="diferencial-card">
+                <div class="icon-box"><i class="fas fa-shield-halved"></i></div>
+                <h3>Segurança Total</h3>
+                <p>Equipe treinada e equipamentos de última geração para um serviço seguro.</p>
+            </div>
+            <div class="diferencial-card">
+                <div class="icon-box"><i class="fas fa-handshake"></i></div>
+                <h3>Transparência</h3>
+                <p>Orçamento claro e honesto, sem surpresas ou custos escondidos.</p>
+            </div>
+            <div class="diferencial-card">
+                <div class="icon-box"><i class="fas fa-leaf"></i></div>
+                <h3>Eco Responsável</h3>
+                <p>Destinação correta dos resíduos em estações de tratamento parceiras.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+        <div class="container sobre-grid">
+            <div class="sobre-text">
+                <span class="section-tag"><i class="fas fa-info-circle"></i> Sobre Nós</span>
+                <h2>Prado Desentupidora e Limpa Fossa</h2>
+                <p>A <strong>Prado Desentupidora</strong> está no mercado desde o ano de <strong>2011</strong>, com sede própria localizada em <strong>Atibaia – São Paulo</strong>. Somos uma empresa especializada em desentupimento com sistema de <strong>hidrojateamento de alta pressão</strong> e <strong>máquina roto-rooter</strong>.</p>
+                <p>Realizamos coleta e transporte de efluentes residenciais e industriais, possuímos frota própria para um transporte seguro e com qualidade. Temos como compromisso entender as necessidades dos nossos clientes para oferecer a melhor prestação de serviço, sempre com muita <strong>transparência, honestidade, qualidade e agilidade</strong>.</p>
+                
+                <div class="sobre-stats">
+                    <div class="stat">
+                        <i class="fas fa-calendar-check"></i>
+                        <h4>+14</h4>
+                        <span>Anos de Experiência</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <h4>+5000</h4>
+                        <span>Clientes Atendidos</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-clock"></i>
+                        <h4>24h</h4>
+                        <span>Disponibilidade</span>
+                    </div>
                 </div>
+            </div>
+            <div class="sobre-info">
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-building"></i></div>
+                    <div>
+                        <h4>Razão Social</h4>
+                        <p>Prado Desentupidora e Limpa Fossa LTDA</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-id-card"></i></div>
+                    <div>
+                        <h4>CNPJ</h4>
+                        <p>14.790.090/0001-76</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-file-invoice"></i></div>
+                    <div>
+                        <h4>Inscrição Estadual SP</h4>
+                        <p>190.411.511.116</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>Rua Albertina Miele Pires, 192<br>Jardim Brasil - Atibaia/SP - CEP 12940-150</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-briefcase"></i></div>
+                    <div>
+                        <h4>Atividade Principal</h4>
+                        <p>CNAE 37.02-9-00 - Atividades relacionadas a esgoto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag light"><i class="fas fa-tools"></i> Nossos Serviços</span>
+                <h2>Soluções Completas em Desentupimento</h2>
+                <p>Oferecemos uma linha completa de serviços especializados para residências, comércios e indústrias.</p>
+            </div>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon"><i class="fas fa-toilet"></i></div>
+                    <h3>Limpeza de Fossa</h3>
+                    <p>A limpeza da fossa é essencial para evitar entupimentos e mau cheiro. Realizada através do caminhão de sucção, os resíduos são transportados de maneira segura para descarte em estações de tratamento apropriadas.</p>
+                    <a href="#contato" class="servico-link">Solicitar <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Limpeza de Caixa de Gordura</h3>
+                    <p>Importante para evitar entupimentos e odores na cozinha. Removemos a gordura acumulada utilizando raspadores e equipamentos de sucção e hidrojateamento. Recomenda-se limpeza regular.</p>
+                    <a href="#contato" class="servico-link">Solicitar <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon"><i class="fas fa-glass-water"></i></div>
+                    <h3>Limpeza de Caixa D'Água</h3>
+                    <p>Fundamental para garantir a qualidade da água que consumimos. Recomenda-se a limpeza a cada seis meses, removendo sujeira, resíduos ou algas, com escovação, detergente neutro e enxágue completo.</p>
+                    <a href="#contato" class="servico-link">Solicitar <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon"><i class="fas fa-wrench"></i></div>
+                    <h3>Desentupimento em Geral</h3>
+                    <p>Remoção de obstruções em sistemas de encanamento, esgoto ou drenagem. Remove resíduos sólidos, gordura, cabelo, papel higiênico ou qualquer material que bloqueie o fluxo de água.</p>
+                    <a href="#contato" class="servico-link">Solicitar <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon"><i class="fas fa-water"></i></div>
+                    <h3>Hidrojateamento</h3>
+                    <p>Técnica que utiliza água pressurizada para limpar e desobstruir tubulações. Um equipamento especializado lança jatos de água de alta pressão, removendo eficazmente resíduos e depósitos acumulados.</p>
+                    <a href="#contato" class="servico-link">Solicitar <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon"><i class="fas fa-video"></i></div>
+                    <h3>Vídeo Inspeção</h3>
+                    <p>Técnica não invasiva para examinar o interior de tubulações. Um equipamento de vídeo transmite imagens em tempo real, permitindo avaliar o estado das tubulações e identificar problemas.</p>
+                    <a href="#contato" class="servico-link">Solicitar <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ATENDIMENTO -->
+    <section class="atendimento" id="atendimento">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-handshake"></i> Atendemos</span>
+                <h2>Para Quem Realizamos Nossos Serviços</h2>
+                <p>Atendemos diversos segmentos com soluções sob medida para cada necessidade.</p>
+            </div>
+            <div class="atendimento-grid">
+                <div class="atendimento-card">
+                    <i class="fas fa-industry"></i>
+                    <h3>Indústrias</h3>
+                    <p>Soluções completas adaptadas às exigências específicas de cada cliente, visando eficiência e bom funcionamento dos sistemas.</p>
+                </div>
+                <div class="atendimento-card">
+                    <i class="fas fa-store"></i>
+                    <h3>Comércios</h3>
+                    <p>Atendimento a estabelecimentos de todos os portes, com agilidade e profissionalismo, contribuindo para a higiene e conforto.</p>
+                </div>
+                <div class="atendimento-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Residências</h3>
+                    <p>Atendimento personalizado, realizando serviços de forma rápida e eficaz, garantindo tranquilidade e bem-estar dos moradores.</p>
+                </div>
+                <div class="atendimento-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Lavanderias</h3>
+                    <p>Soluções especializadas para lavanderias comerciais e industriais, garantindo eficiência e qualidade dos processos de lavagem.</p>
+                </div>
+                <div class="atendimento-card">
+                    <i class="fas fa-hard-hat"></i>
+                    <h3>Obras</h3>
+                    <p>Serviços para construção civil, garantindo o bom andamento dos projetos e contribuindo para a segurança e eficiência das operações.</p>
+                </div>
+                <div class="atendimento-card">
+                    <i class="fas fa-plus-circle"></i>
+                    <h3>Entre Outros!</h3>
+                    <p>Atendemos uma ampla variedade de clientes, oferecendo soluções sob medida para cada necessidade, seja qual for o setor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEIO AMBIENTE -->
+    <section class="ambiente" id="ambiente">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag light"><i class="fas fa-leaf"></i> Meio Ambiente</span>
+                <h2>Compromisso com o Planeta</h2>
+                <p>Aqui você terá acesso aos indicadores gerados a partir da destinação dos efluentes e resíduos sólidos orgânicos da nossa empresa, valorizados e transformados com a reciclagem de efluentes e compostagem em escala com o apoio de nossas empresas parceiras.</p>
+            </div>
+            <div class="ambiente-cycle">
+                <div class="cycle-step">
+                    <div class="cycle-icon"><i class="fas fa-truck"></i></div>
+                    <h4>Coleta</h4>
+                    <p>Coleta segura de efluentes e resíduos</p>
+                </div>
+                <i class="fas fa-arrow-right cycle-arrow"></i>
+                <div class="cycle-step">
+                    <div class="cycle-icon"><i class="fas fa-recycle"></i></div>
+                    <h4>Tratamento</h4>
+                    <p>Processamento em estações especializadas</p>
+                </div>
+                <i class="fas fa-arrow-right cycle-arrow"></i>
+                <div class="cycle-step">
+                    <div class="cycle-icon"><i class="fas fa-seedling"></i></div>
+                    <h4>Valorização</h4>
+                    <p>Transformação em compostos e água tratada</p>
+                </div>
+                <i class="fas fa-arrow-right cycle-arrow"></i>
+                <div class="cycle-step">
+                    <div class="cycle-icon"><i class="fas fa-globe-americas"></i></div>
+                    <h4>Preservação</h4>
+                    <p>Proteção de nascentes, rios e florestas</p>
+                </div>
+            </div>
+
+            <h3 class="parceiros-title"><i class="fas fa-handshake-angle"></i> Nossos Parceiros</h3>
+            <div class="parceiros-grid">
+                <div class="parceiro-card">
+                    <div class="parceiro-icon"><i class="fas fa-flask"></i></div>
+                    <h4>Tera Ambiental</h4>
+                    <p>Empresa especializada no recebimento, monitoramento e tratamento biológico de efluentes e compostagem de resíduos orgânicos, localizada em <strong>Jundiaí-SP</strong>.</p>
+                </div>
+                <div class="parceiro-card">
+                    <div class="parceiro-icon"><i class="fas fa-vial-circle-check"></i></div>
+                    <h4>Attend</h4>
+                    <p>Opera com as melhores tecnologias em tratamento de efluentes, com sistema de gestão exclusivo que garante transparência e rastreabilidade. Central de Tratamento em <strong>Barueri-SP</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container cta-content">
+            <div class="cta-text">
+                <h2>Precisa de Desentupimento Urgente?</h2>
+                <p>Atendimento 24 horas em Atibaia e região. Fale conosco agora mesmo!</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="tel:1144110308" class="btn btn-white"><i class="fas fa-phone"></i> (11) 4411-0308</a>
+                <a href="https://wa.me/5511964026349" class="btn btn-green" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-envelope"></i> Contato</span>
+                <h2>Fale Conosco</h2>
+                <p>Solicite seu orçamento sem compromisso. Estamos prontos para atender você!</p>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua Albertina Miele Pires, 192<br>Jardim Brasil - Atibaia/SP<br>CEP: 12940-150</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Telefones</h4>
+                            <p>
+                                <a href="tel:1144110308">(11) 4411-0308</a><br>
+                                <a href="tel:1144167039">(11) 4416-7039</a><br>
+                                <a href="tel:11964026349">(11) 96402-6349</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p><a href="mailto:pradodesentupidora@gmail.com">pradodesentupidora@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Horário</h4>
+                            <p>Atendimento 24 horas<br>Todos os dias da semana</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contato-form" id="contatoForm">
+                    <div class="form-group">
+                        <label for="nome"><i class="fas fa-user"></i> Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone"><i class="fas fa-phone"></i> Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="servico"><i class="fas fa-tools"></i> Serviço Desejado</label>
+                        <select id="servico" name="servico" required>
+                            <option value="">Selecione um serviço</option>
+                            <option>Limpeza de Fossa</option>
+                            <option>Limpeza de Caixa de Gordura</option>
+                            <option>Limpeza de Caixa D'Água</option>
+                            <option>Desentupimento em Geral</option>
+                            <option>Hidrojateamento</option>
+                            <option>Vídeo Inspeção</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem"><i class="fas fa-comment"></i> Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva sua necessidade"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fab fa-whatsapp"></i> Enviar via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="logo footer-logo">
+                    <i class="fas fa-water"></i>
+                    <div class="logo-text">
+                        <h1>PRADO</h1>
+                        <span>Desentupidora & Limpa Fossa</span>
+                    </div>
+                </div>
+                <p>Desde 2011 oferecendo serviços de desentupimento com qualidade, transparência e agilidade em Atibaia e região.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="#servicos">Limpeza de Fossa</a></li>
+                    <li><a href="#servicos">Caixa de Gordura</a></li>
+                    <li><a href="#servicos">Caixa D'Água</a></li>
+                    <li><a href="#servicos">Desentupimento</a></li>
+                    <li><a href="#servicos">Hidrojateamento</a></li>
+                    <li><a href="#servicos">Vídeo Inspeção</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Atendemos</h4>
+                <ul>
+                    <li>Indústrias</li>
+                    <li>Comércios</li>
+                    <li>Residências</li>
+                    <li>Lavanderias</li>
+                    <li>Obras</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <ul class="footer-contato">
+                    <li><i class="fas fa-map-marker-alt"></i> Rua Albertina Miele Pires, 192 - Atibaia/SP</li>
+                    <li><i class="fas fa-phone"></i> (11) 4411-0308</li>
+                    <li><i class="fas fa-phone"></i> (11) 4416-7039</li>
+                    <li><i class="fas fa-mobile-alt"></i> (11) 96402-6349</li>
+                    <li><i class="fas fa-envelope"></i> pradodesentupidora@gmail.com</li>
+                </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 MD Clean - CNPJ: 06.303.006/0001-14. Todos os direitos reservados.</p>
+            <div class="container">
+                <p>© 2025 Prado Desentupidora e Limpa Fossa LTDA - CNPJ: 14.790.090/0001-76 - Todos os direitos reservados.</p>
+            </div>
         </div>
     </footer>
 
-    <!-- Botão Voltar ao Topo -->
-    <button id="btnTopo" title="Voltar ao Topo"><i class="fas fa-arrow-up"></i></button>
+    <!-- BOTÃO WHATSAPP FLUTUANTE -->
+    <a href="https://wa.me/5511964026349" class="whatsapp-float" target="_blank" aria-label="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Fale Conosco!</span>
+    </a>
 
-    <!-- JavaScript -->
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <script src="script.js"></script>
 </body>
 </html>
